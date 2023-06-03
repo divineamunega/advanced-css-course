@@ -44,17 +44,17 @@ body {
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -69,7 +69,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -83,7 +83,7 @@ body {
   /* animation-delay: 3s; */
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -167,14 +167,14 @@ body {
   transition: all 0.4s;
 }
 
-.btn-white {
+.btn--white {
   color: #777;
   background-color: #fff;
   padding: 1.5rem 4rem;
   display: inline-block;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -182,7 +182,7 @@ body {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-in 0.75s;
   animation-fill-mode: backwards;
 }
