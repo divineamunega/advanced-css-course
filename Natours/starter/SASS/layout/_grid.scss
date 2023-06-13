@@ -2,21 +2,22 @@
 @use "../abstract/mixin";
 .row {
     max-width: variables.$grid-width;
-    background-color: #eee;
+    // background-color: #eee;
     margin: 0 auto;
     
     &:not(:last-child){
         margin-bottom: variables.$gutter-vertical;
     }
+    
     [class^="col-"]{
         float: left;
-        color: white;
+        // color: white;
         
         &:not(:last-child) {
             margin-right: variables.$gutter-horizontal;
         }
 
-        background-color: orangered;
+        // background-color: orangered;
     }
 
     .col-1-of-2 {
